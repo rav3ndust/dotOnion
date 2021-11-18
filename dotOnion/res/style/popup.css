@@ -8,10 +8,14 @@ body,html{
     font-size:16px;
     min-width:512px;
     min-height:256px;
-    background-color: rgb(22, 21, 21); 
+    background-color: rgb(0, 0, 0); 
     color:rgb(255, 0, 0)
 }
 
+.breakHelper {
+    color: black; 
+    background-color:rgb(106, 36, 128)
+}
 .needsConfigure{
     display:none;
     margin:4px 32px 4px 32px;
