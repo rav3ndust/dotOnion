@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Popup for garlic extension</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,700|Roboto+Mono:300" rel="stylesheet">
+        <link href="./res/style/popup.css" type="text/css" rel="stylesheet">
+        <script src="./res/js/popup.js"></script>
+    </head>
+    <body>
+        <div id="navigation" class="navigation">
+            <button data-menuOffset="0" data-i18n="word_info">garlic</button>
+            <button data-menuOffset="1" data-i18n="word_settings">settings</button>
+            <button data-menuOffset="2" data-i18n="word_about">about garlic</button>
+        </div>
+        <div id="menus" class="menus">
+            <div class="menu">
+                <div id="needsConfigure" class="needsConfigure"><span data-i18n="word_warning" style="font-weight:700;">WARNING:</span><br/>
+                <span data-i18n="not_configured">garlic isn't currently configured and won't work properly. Please see the "Settings" tab to configure!</span></div>
+                <img src="./res/img/local.png"/> <span style="font-family:'roboto mono'">Your current IP: </span><span id="ipPublic"></span><br/>
+                <img src="./res/img/icon16.png"/> <span style="font-family:'roboto mono'">Tor IP: </span><span id="ipTor"></span>
+            </div><div class="menu">
+                <input type="radio" name="proxyType" id="proxyTypeLocal" value="local"><label for="proxyTypeLocal" data-i18n="useLocal">Tor is running on <i>this machine:</i></label>
+                <div class="settings" id="settingsForLocal">
+                    <span style="font-family:'roboto mono'" data-i18n="word_port">Port</span>: <input type="number" min="1" max="65535" step="1" value="9050" id="settingTorPortLocal"/>
+                </div>
+                <input type="radio" name="proxyType" id="proxyTypeExternal" value="external"><label for="proxyTypeExternal" data-i18n="useExternal">Tor is running on <I>on a different machine:</I></label>
+                <div class="settings disabled" id="settingsForExternal">
+                    <span style="font-family:'roboto mono'" data-i18n="word_host">Host</span>: <input type="text" placeholder="IP Address" id="settingTorHostExternal"/><br/>
+                    <span style="font-family:'roboto mono'" data-i18n="word_port">Port</span>: <input type="number" min="1" max="65535" step="1" value="9050" id="settingTorPortExternal"/>
+                </div><br/>
+                <input type="checkbox" id="settingProxyEnableExit"/><label for="settingProxyEnableExit">Enable .exit domains</label><br/><br/>
+                <button id="settingsSave" data-i18n="save_settings" title="You don't have to click this, but it is satisfying. :3">Save Settings</button> <button data-i18n="test_connection" id="testConnection">Test connection</button>
+            </div><div class="menu">
+                <span data-i18n="about_top"><b></b>garlic is a tor proxy handler that can make accessing your favorite .onion sites through your favorite browser simple - however, you should not expect added security/privacy from using it.</span><br/>
+                <br/>
+                <span data-i18n="about_mid"><b>If you are using <b>garlic</b> for privacy, I highly recommend getting the <a href="https://www.torproject.org/projects/torbrowser.html.en">Tor Browser</a> instead.</b>
+                It is a lot more secure as it does other stuff to protect your privacy, <b>garlic</b>> is only intended for letting you access tor sites, it doesn't add any security layers.</span><br/>
+                <br/>
+                <br/>
+                <span data-i18n="about_crafted"><b>garlic</b> is free software from <a href="https://rav3ndust.xyz">rav3ndust.xyz</a></span><br/>
+                <a href="https://github.com/rav3ndust/garlic"><span data-i18n="source_code">Get the source code here!</span></a>
+            </div>
+        </div>
+    </body>
+</html>
