@@ -1,44 +1,44 @@
 {
    "extDescription": {
       "description": "The extension description.",
-      "message": "Forwards requests to .onion and .exit tlds to a tor proxy"
+      "message": "garlic forwards your request to .onion and .exit domains, creating an effective Tor proxy."
    },
    "extName": {
       "description": "The extension name.",
-      "message": "dotOnion"
+      "message": "garlic"
    },
    "extShortname": {
       "description": "The short name.",
-      "message": "dotOnion"
+      "message": "garlic"
    },
    
    "save_settings": {
-      "description": "Save settings",
-      "message": "Save settings"
+      "description": "Save your settings",
+      "message": "Save your settings"
    },
    "test_connection": {
-      "description": "Test connection",
-      "message": "Test connection"
+      "description": "Test network connection",
+      "message": "Test network connection"
    },
    "not_configured":{
-      "description": "dotOnion IS NOT configured and will not work! Please see the \"Settings\" tab to configure!",
-      "message": "dotOnion IS NOT configured and will not work! Please see the \"Settings\" tab to configure!"
+      "description": "garlic is not currently configured and will not work! Please see the \"Settings\" tab to configure!",
+      "message": "garlic is not currently configured and will not work! Please see the \"Settings\" tab to configure!"
    },
    "word_warning": {
-      "description": "WARNING",
-      "message": "WARNING"
+      "description": "Caution",
+      "message": "Caution"
    },
    "word_info": {
-      "description": "Info",
-      "message": "Info"
+      "description": "garlic-info",
+      "message": "garlic"
    },
    "word_settings": {
-      "description": "Settings",
-      "message": "Settings"
+      "description": "settings",
+      "message": "settings"
    },
    "word_about": {
-      "description": "About",
-      "message": "About"
+      "description": "about garlic",
+      "message": "about garlic"
    },
    "word_port": {
       "description": "Port",
@@ -49,25 +49,25 @@
       "message": "Host"
    },
    "useExternal": {
-      "description": "The Tor SOCKS server is running on \u003CI>this computer:\u003C/I>",
-      "message": "The Tor SOCKS server is running on \u003CI>this computer:\u003C/I>"
+      "description": "The Tor SOCKS server is running on \u003CI>this machine:\u003C/I>",
+      "message": "The Tor SOCKS server is running on \u003CI>this machine:\u003C/I>"
    },
    "useLocal": {
-      "description": "The Tor SOCKS server is running on \u003CI>a different computer:\u003C/I>",
-      "message": "The Tor SOCKS server is running on \u003CI>a different computer:\u003C/I>"
+      "description": "The Tor SOCKS server is running on \u003CI>another machine:\u003C/I>",
+      "message": "The Tor SOCKS server is running on \u003CI>another machine:\u003C/I>"
    },
    
    "about_top": {
-      "description": "dotOnion is a simple tor proxy handler, made for those who just want to access .onion domains, but do not need extra security/privacy.",
-      "message": "dotOnion is a simple tor proxy handler, made for those who just want to access .onion domains, but do not need extra security/privacy."
+      "description": "garlic is a tor proxy handler that can make accessing your favorite .onion sites through your favorite browser simple - however, you should not expect added security/privacy from using it.",
+      "message": "garlic is a tor proxy handler that can make accessing your favorite .onion sites through your favorite browser simple - however, you should not expect added security/privacy from using it."
    },
    "about_mid": {
       "description": "",
-      "message": "\u003Cb>If you are using dotOnion for privacy, I highly recommend getting the \u003Ca href=\"https://www.torproject.org/projects/torbrowser.html.en\">Tor Browser\u003C/a> instead.\u003C/b> It is a lot more secure as it does other stuff to protect your privacy, dotOnion is only intended for letting you access tor sites, it doesn't add any security layers."
+      "message": "If you are using \uc003Cb>garlic\u003C/b> for privacy, I highly recommend getting the \u003Ca href=\"https://www.torproject.org/projects/torbrowser.html.en\">Tor Browser\u003C/a> instead.\u003C/b> It is a lot more secure as it does other stuff to protect your privacy. garlic is only intended for letting you access onion sites - it doesn't grant any additional security guarantees."
    },
    "about_crafted": {
-      "description": "dotOnion is hand crafted by Hyenas, with love! :3",
-      "message": "dotOnion is hand crafted by Hyenas, with love! :3"
+      "description": "\u003Cb>garlic\u003C/b> is free software from \u003Ca href=\"https://rav3ndust.xyz\">rav3ndust.xyz\u003C/a>."
+      "message": "\u003Cb>garlic\u003C/b> is free software from \u003Ca href=\"https://rav3ndust.xyz\">rav3ndust.xyz\u003C/a>."
    },
    "source_code": {
       "description": "Get the source code here!",
