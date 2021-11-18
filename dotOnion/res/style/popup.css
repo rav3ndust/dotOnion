@@ -8,6 +8,8 @@ body,html{
     font-size:16px;
     min-width:512px;
     min-height:256px;
+    background-color: rgb(22, 21, 21); 
+    color:rgb(255, 0, 0)
 }
 
 .needsConfigure{
@@ -31,14 +33,14 @@ body,html{
 
 button{
     border:0;
-    background:#eee;
+    background:rgb(106, 36, 128);
     transition: background-color 0.25s ease;
     box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.75);
     outline: none;
 }
-button:hover{background:#ccc;}
-button:active{background:#888;}
-button.selected{background:#aaa;}
+button:hover{background:rgb(0, 0, 0);color:red}
+button:active{background:rgb(73, 70, 70);color:purple}
+button.selected{background:rgb(0, 0, 0);color:rgb(218, 67, 218)}
 
 .navigation button{
     box-shadow: none;
@@ -46,6 +48,7 @@ button.selected{background:#aaa;}
     flex: 1 0 auto;
     font-weight:bold;
 }
+
 
 .menus{
     width:100%;
