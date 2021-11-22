@@ -63,10 +63,10 @@
    },
    "about_mid": {
       "description": "",
-      "message": "If you are using \uc003Cb>garlic\u003C/b> for privacy, I highly recommend getting the \u003Ca href=\"https://www.torproject.org/projects/torbrowser.html.en\">Tor Browser\u003C/a> instead.\u003C/b> It is a lot more secure as it does other stuff to protect your privacy. garlic is only intended for letting you access onion sites - it doesn't grant any additional security guarantees."
+      "message": "If you are using garlic for privacy, I highly recommend getting the \u003Ca href=\"https://www.torproject.org/projects/torbrowser.html.en\">Tor Browser\u003C/a> instead.\u003C/b> It is a lot more secure as it does other stuff to protect your privacy. garlic is only intended for letting you access onion sites - it doesn't grant any additional security guarantees."
    },
    "about_crafted": {
-      "description": "\u003Cb>garlic\u003C/b> is free software from \u003Ca href=\"https://rav3ndust.xyz\">rav3ndust.xyz\u003C/a>."
+      "description": "\u003Cb>garlic\u003C/b> is free software from \u003Ca href=\"https://rav3ndust.xyz\">rav3ndust.xyz\u003C/a>.",
       "message": "\u003Cb>garlic\u003C/b> is free software from \u003Ca href=\"https://rav3ndust.xyz\">rav3ndust.xyz\u003C/a>."
    },
    "source_code": {
